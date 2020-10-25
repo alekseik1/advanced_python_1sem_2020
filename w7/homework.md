@@ -14,7 +14,7 @@
 
 ```python
 >>> from my_mathematics.math import MyMath, MyComplexMath
->>> from my_mathematics.vector import Vector
+>>> from my_mathematics.linear_algebra import Vector
 ```
 Если это так, то поздравляю вас: вы только что собрали куски кода в единый модуль!
 Такая структура вам пригодится в следующем задании.
@@ -38,7 +38,7 @@ _Здесь все пункты следует выполнять один за 
 ```python
 $ python
 >>> from my_mathematics.math import MyMath, MyComplexMath
->>> from my_mathematics.vector import Vector
+>>> from my_mathematics.linear_algebra import Vector
 >>> MyMath.sin(2)
 0.9092974268256817
 ```
