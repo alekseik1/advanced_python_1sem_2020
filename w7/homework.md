@@ -42,6 +42,7 @@ $ python
 >>> MyMath.sin(2)
 0.9092974268256817
 ```
+_Обратите внимание: если вы используете какие-либо сторонние библиотеки (например, `numpy`), их необходимо прописать в `install_requires=['numpy']` в `setup.py`. Об этом написано в [офф.документации](https://packaging.python.org/guides/distributing-packages-using-setuptools/#install-requires)_
 
 ### Тестирование и pytest
 7. (2) Вернитесь в то виртуальное окружение, где вы собирали .whl-пакет.
