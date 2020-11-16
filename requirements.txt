@@ -1,4 +1,5 @@
 fastapi
+hypothesis
 pytest
 requests
 uvicorn
