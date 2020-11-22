@@ -66,7 +66,7 @@ assert get_combinations_with_r("cat", 2) == ["aa", "ac", "at", "cc", "ct", "tt"]
 def compress_string(s):
     raise RuntimeError("Not implemented")
 
-assert compress_string('1222311') == [(1, 1), (3, 2), (1, 3), (2, 1)]
+assert compress_string('1222311') == [(1, '1'), (3, '2'), (1, '3'), (2, '1')]
 ```
 (1) Напишите несколько тестов на нескольких данных.
 
